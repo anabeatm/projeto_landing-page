@@ -47,16 +47,6 @@ O projeto está organizado da seguinte maneira:
 - **HTML5:** Utilizado para criar a estrutura e o conteúdo da página.
 - **CSS3:** Utilizado para estilizar a página e torná-la visualmente atraente e responsiva.
 
-## Contribuição
-
-Contribuições são bem-vindas! Se você deseja melhorar este projeto, siga os passos abaixo:
-
-1. **Fork o Repositório.**
-2. **Crie uma Branch para sua Feature (`git checkout -b feature/nova-feature`).**
-3. **Commit suas Alterações (`git commit -m 'Adiciona nova feature'`).**
-4. **Envie para a Branch (`git push origin feature/nova-feature`).**
-5. **Abra um Pull Request.**
-
 ---
 
 Obrigado por conferir este projeto! Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato.
