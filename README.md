@@ -12,12 +12,20 @@ O projeto está organizado da seguinte maneira:
 /projeto_01
 │
 ├── projeto_ong/
-    ├── html/
-        ├── index.html
+    ├── index.html
+    ├── doacoes.html
+    ├── contato.html
     ├── css/
         ├── main.css
+        ├── doacoes.css
+        ├── contato.css
     ├── img/
         ├── image_main.png
+        ├── image_ida.png
+        ├── image_director.png
+        ├── image_assisadm.png
+        ├── image_adm.png
+        ├── hand-holding-heart-solid.svg
 ```
 
 - `index.html`: Este arquivo contém a estrutura básica da página web, incluindo o conteúdo principal e a marcação HTML.
@@ -39,7 +47,7 @@ O projeto está organizado da seguinte maneira:
    ```
 
 3. **Abrir o Arquivo HTML no Navegador:**
-   
+
    Abra o arquivo `index.html` diretamente no seu navegador preferido.
 
 ## Tecnologias Utilizadas
