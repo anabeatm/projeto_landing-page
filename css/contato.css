@@ -3,9 +3,11 @@
     padding: 25px;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     background-color: #386b70;
     color: #fff;
+    width: 75%;
+    margin-left: 180px;
 }
 
 #contact-info h2, 
@@ -34,7 +36,6 @@
     margin-top: 10px;
     border: 1px solid #ccc;
     border: 4px;
-    width: 90%;
 }
 
 #contact-form textarea {
@@ -56,4 +57,20 @@
 
 #contact-form button:hover {
     background-color: #417b81;
+}
+
+@media (max-width: 450px) {
+    #main-container {
+        max-width: 450px;
+        padding: 20px;
+    }
+
+    #contact-info,
+    #contact-form {
+        margin: 0 45px 25px 45px;
+    }
+
+    #contact-form button {
+        width: 240px;
+    }
 }

@@ -11,6 +11,7 @@
     padding: 20px;
     border-radius: 8px;
     width: 550px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .donation-form-container h2 {

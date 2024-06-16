@@ -268,7 +268,6 @@ footer span {
 }
 
 footer ul {
-    /* position: relative; */
     display: flex;
     justify-content: center;
     padding: 15px;
@@ -277,4 +276,113 @@ footer ul {
 footer li {
     margin-right: 26px;
     font-size: 22px;
+}
+
+
+/* responsivo */
+@media (max-width: 450px) {
+    body {
+        max-width: 450px;
+    }
+
+    /* header */
+   #navbar-container {
+    height: 100px;
+    padding: 10px;
+   }
+
+   #logo {
+    font-size: 44px;
+    margin: 15px;
+   }
+
+   .navbar-title {
+    display: none;
+   }
+
+   #navbar-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   /* main */
+   #main-container {
+    padding: 15px;
+    margin: 0;
+   }
+
+   .header-main {
+    background-image: none;
+    margin: 0;
+    padding: 0;
+   }
+
+   .header-main-title {
+    width: 110%;
+    margin-left: 45px;
+    height: 145.5px;
+   }
+
+   .info-main {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+   }
+
+   .info-main ul {
+    margin: 0;
+    flex-direction: column;
+   }
+
+   #stories {
+    margin: 0;
+    padding: 0;
+    
+   }
+
+   #stories h2 {
+    margin-right: 10px;
+    font-size: 26px;
+    margin-top: 15px;
+   }
+
+   .our-history {
+    padding: 0;
+    margin: 20px;
+    margin-bottom: 25px;
+    grid-template-columns: none;
+   }
+
+   .our-history img {
+    margin: 15px;
+    margin-left: 110px;
+   }
+
+   .our-history h4 {
+    text-align: center;
+   }
+
+   .our-history p {
+    margin-bottom: 15px;
+   }
+
+   #volunteers h2, #form-volunteers {
+    padding: 0;
+   }
+
+
+   #social-media-list {
+    margin-left: 20px;
+   }
+
+   #form-container {
+    width: 400px;
+   }
+
+   .donation-form-container {
+    margin-top: -135px;
+   }
 }
