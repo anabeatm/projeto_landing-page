@@ -214,18 +214,16 @@ nav {
 }
 
 .voluntary {
-    border: none;
+    border: 1px solid #ccc;
+    padding: 10px;
     margin-bottom: 20px;
     width: 300px;
     height: 40px;
-    font-size: 18px;
     border-radius: 5px;
 }
 
 .voluntary::placeholder {
-    text-align: center;
     font-size: 14px;
-    font-style: italic;
 }
 
 .btn-submit {
